@@ -44,3 +44,24 @@ footer {
     color: white;
     margin-top: 20px;
 }
+#images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns of equal width */
+    gap: 20px; /* Adds spacing between grid items */
+    text-align: center; /* Centers text within each grid item */
+}
+
+#images div {
+    background: #ddc9c9; /* Optional: background for better visual separation */
+    padding: 10px;
+    border-radius: 5px; /* Optional: rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+#images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+
